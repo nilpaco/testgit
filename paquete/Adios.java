@@ -1,7 +1,10 @@
-public class Hola{
-	private static String nombre = "Nil";
-//Entra TODO Aqui
+public class Adios{
+
+       String nombre = "Nil penoso eh"
 	public static void main(String[] args){
-	System.out.println("Hola que tal como estas"+nombre);
+        
+	Hola h = new Hola();
+
+	System.out.println("Hola que tal como estas, "+h.nombre);
 }
 }
